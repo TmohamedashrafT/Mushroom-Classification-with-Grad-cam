@@ -57,3 +57,15 @@ This file contains functions to generate heatmaps using Grad-CAM and plot them.
 - Optimizer : Adam
 - Epochs : 100
 - Loss : Cross entropy
+- Freeze the weights of the backbone
+# Results
+After examining the ResNet notebook, it appears that the model is unable to effectively handle this particular dataset.
+| Data | Loss | Accuracy |
+| :---: | :---: | :---: |
+| Train | 0.207 | 93.3% |
+| Val   | 0.724 | 77.5% | 
+| Test  | 0.656 | 77.8% |
+Upon analyzing the dataset, it becomes apparent that mushrooms of the same class exhibit diverse shapes and colors. This variation poses a challenging task for humans to accurately classify the different types of mushrooms.
+
+To overcome this complexity, a larger and more powerful model will be utilized. By employing a larger model, we aim to capture a broader range of features and patterns present in the mushroom images. This increased capacity will enhance the model's ability to differentiate between various types of mushrooms
+![
