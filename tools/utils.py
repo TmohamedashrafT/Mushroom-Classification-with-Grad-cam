@@ -11,7 +11,7 @@ from metrics import calc_precision_cls, calc_recall_cls, calc_f1_score_cls
 sns.set()
 def show_batch(data_dir):
 
-  ''' show random image from every class '''
+  ''' show random image from each class '''
   fig = plt.figure(figsize=(12, 12))
   cols, rows = 3, 3
   for i, cls in enumerate(os.listdir(data_dir)):
