@@ -13,9 +13,9 @@ The dataset was obtained from Kaggle, specifically from the "LOVE OF A LIFETIME"
 - RandomHorizontalFlip
 - RandomVerticalFlip
 - RandomRotation with maximum degrees 15
-#### The data was loaded and augmented [Dataset_Generator.py](https://github.com/TmohamedashrafT/Mushroom-Classification-with-Grad-cam/blob/main/tools/Dataset_Generator.py)
+#### The data was loaded and augmented [`Dataset_Generator.py`](https://github.com/TmohamedashrafT/Mushroom-Classification-with-Grad-cam/blob/main/tools/Dataset_Generator.py)
 ## Models
-[models.py](https://github.com/TmohamedashrafT/Mushroom-Classification-with-Grad-cam/blob/main/tools/models.py)
+[`models.py`](https://github.com/TmohamedashrafT/Mushroom-Classification-with-Grad-cam/blob/main/tools/models.py)
 #### List of models:
 - ResNet50
 - Convnext
@@ -39,15 +39,15 @@ By utilizing Grad-CAM, we can generate informative heatmaps that highlight the r
 - https://arxiv.org/pdf/1610.02391.pdf
 - https://medium.com/@ninads79shukla/gradcam-73a752d368be
 - https://towardsdatascience.com/understand-your-algorithm-with-grad-cam-d3b62fce353
-#### The Grad-CAM was implemented in [Grad_cam.py](https://github.com/TmohamedashrafT/Mushroom-Classification-with-Grad-cam/blob/main/tools/Grad_cam.py)
-[Grad_cam_utils.py](https://github.com/TmohamedashrafT/Mushroom-Classification-with-Grad-cam/blob/main/tools/Grad_cam_utils.py)
+#### The Grad-CAM was implemented in [`Grad_cam.py`](https://github.com/TmohamedashrafT/Mushroom-Classification-with-Grad-cam/blob/main/tools/Grad_cam.py)
+[`Grad_cam_utils.py`](https://github.com/TmohamedashrafT/Mushroom-Classification-with-Grad-cam/blob/main/tools/Grad_cam_utils.py)
 This file contains functions to generate heatmaps using Grad-CAM and plot them.
 ## Metrics
 - Accuracy
 - Recall
 - Precision
 - F1-score
-#### The Metrics was implemented in [Metrics.py](https://github.com/TmohamedashrafT/Mushroom-Classification-with-Grad-cam/blob/main/tools/metrics.py)
+#### The Metrics was implemented in [`Metrics.py`](https://github.com/TmohamedashrafT/Mushroom-Classification-with-Grad-cam/blob/main/tools/metrics.py)
 ## Utils Function
 - show_batch     : show random images from each class
 - show_aug_batch : show 9 random images after transformations
