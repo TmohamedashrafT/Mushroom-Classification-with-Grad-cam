@@ -21,6 +21,7 @@ def show_batch(data_dir):
     plt.axis("off")
     img = cv2.imread(os.path.join(data_dir,cls,img_path))
     img = cv2.resize(img,(299,299))
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB ) 
     plt.imshow(img)
   plt.show()
 
